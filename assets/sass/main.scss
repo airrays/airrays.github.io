@@ -112,7 +112,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: rgb(61, 61, 61);
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -134,7 +134,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(36, 36, 36);
 		line-height: 1.5em;
 	}
 
@@ -152,7 +152,7 @@
 		letter-spacing: -1px;
 
 		&.alt {
-			color: #888;
+			color: rgb(39, 39, 39);
 
 			strong {
 				color: #666;
@@ -730,8 +730,8 @@
 			background-image: url('images/overlay.png');
 
 			&.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				//color: #ddd;
+				color: rgba(59, 59, 59, 0.75);
 
 				h2, h3, h4, h5, h6 {
 					color: inherit;
