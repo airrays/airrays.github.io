@@ -1795,6 +1795,17 @@ input, select, textarea {
 				width: auto;
 			}
 
+	.aboutMeImage{
+		display: block;
+		height: 450px;
+		background-color: #fff;
+		background-image: url(/images/JumpRock.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
 /* List */
 
 	ul {
